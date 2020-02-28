@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9516CF752409011800823688 /* ForEachHOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CF742409011800823688 /* ForEachHOF.swift */; };
+		9516CF772409022C00823688 /* ContainsHOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CF762409022C00823688 /* ContainsHOF.swift */; };
+		9516CF79240903B200823688 /* RemoveAllHOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CF78240903B200823688 /* RemoveAllHOF.swift */; };
+		9516CF7B2409046100823688 /* SortedHOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CF7A2409046100823688 /* SortedHOF.swift */; };
+		9516CF7D2409052A00823688 /* SplitHOF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CF7C2409052A00823688 /* SplitHOF.swift */; };
 		954B86BC2407FDA70056BDE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B86BB2407FDA70056BDE4 /* AppDelegate.swift */; };
 		954B86BE2407FDA70056BDE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B86BD2407FDA70056BDE4 /* SceneDelegate.swift */; };
 		954B86C02407FDA70056BDE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B86BF2407FDA70056BDE4 /* ContentView.swift */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9516CF742409011800823688 /* ForEachHOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachHOF.swift; sourceTree = "<group>"; };
+		9516CF762409022C00823688 /* ContainsHOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsHOF.swift; sourceTree = "<group>"; };
+		9516CF78240903B200823688 /* RemoveAllHOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAllHOF.swift; sourceTree = "<group>"; };
+		9516CF7A2409046100823688 /* SortedHOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedHOF.swift; sourceTree = "<group>"; };
+		9516CF7C2409052A00823688 /* SplitHOF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitHOF.swift; sourceTree = "<group>"; };
 		954B86B82407FDA70056BDE4 /* HigherOrderFunctions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HigherOrderFunctions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954B86BB2407FDA70056BDE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		954B86BD2407FDA70056BDE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +91,11 @@
 				954B86D5240802D20056BDE4 /* FlatMapHOF.swift */,
 				954B86D7240804340056BDE4 /* FilterHOF.swift */,
 				954B86D92408095A0056BDE4 /* ReduceHOF.swift */,
+				9516CF742409011800823688 /* ForEachHOF.swift */,
+				9516CF762409022C00823688 /* ContainsHOF.swift */,
+				9516CF78240903B200823688 /* RemoveAllHOF.swift */,
+				9516CF7A2409046100823688 /* SortedHOF.swift */,
+				9516CF7C2409052A00823688 /* SplitHOF.swift */,
 			);
 			path = HigherOrderFunctions;
 			sourceTree = "<group>";
@@ -165,11 +180,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				954B86D42408016F0056BDE4 /* CompactMapHOF.swift in Sources */,
+				9516CF79240903B200823688 /* RemoveAllHOF.swift in Sources */,
 				954B86DA2408095A0056BDE4 /* ReduceHOF.swift in Sources */,
 				954B86D6240802D20056BDE4 /* FlatMapHOF.swift in Sources */,
 				954B86D2240800C50056BDE4 /* MapAndCustomTypes.swift in Sources */,
 				954B86BC2407FDA70056BDE4 /* AppDelegate.swift in Sources */,
+				9516CF7B2409046100823688 /* SortedHOF.swift in Sources */,
 				954B86BE2407FDA70056BDE4 /* SceneDelegate.swift in Sources */,
+				9516CF752409011800823688 /* ForEachHOF.swift in Sources */,
+				9516CF772409022C00823688 /* ContainsHOF.swift in Sources */,
+				9516CF7D2409052A00823688 /* SplitHOF.swift in Sources */,
 				954B86D8240804340056BDE4 /* FilterHOF.swift in Sources */,
 				954B86D02407FDD60056BDE4 /* HigherOrderFunctions .swift in Sources */,
 				954B86C02407FDA70056BDE4 /* ContentView.swift in Sources */,
